@@ -454,6 +454,7 @@ h3 {
     border: none;
     outline: none;
     background-color: #f0f0f0;
+    resize: none;
 }
 .comment-form button {
     margin: 10px 0;
@@ -509,4 +510,5 @@ h3 {
     outline: none;
     border: 1px solid #ccc;
     box-sizing: border-box; /* to avoid horizontal scrolling underneath in smaller screens or shorten the email */
+    resize: none;
 }
