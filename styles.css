@@ -347,6 +347,19 @@ h3 {
 .icons p {
     text-transform: capitalize;
 }
+.icons .links a {
+    color: #f44336;
+    margin: 0 8px;
+    cursor: pointer;
+    padding: 18px 0;
+    /* transition: background  0.5s;
+    width: 40px; */
+}
+/* .icons .links a:hover {
+    background-color: #f44336;
+    color: #fff;
+    border-radius: 50%;
+} */
 
 @media(max-width: 700px) {
     .footer p {
