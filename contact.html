@@ -73,7 +73,8 @@
 
             <div class="contact-col">
 
-                <form action="form-handler.php" method="post"> <!-- will send the data to the form-handler.php through post method --->
+                <!-- <form action="form-handler.php" method="post"> will send the data to the form-handler.php through post method - -->
+                    <form name="Contact" method="post" data-netlify="true">
                     <input type="text" name="name" placeholder="Enter your name" required>
                     <input type="email" name="email" placeholder="Enter Email Address" required>
                     <input type="text" name="subject" placeholder="Enter your subject" required>
